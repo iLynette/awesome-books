@@ -43,19 +43,22 @@
     const removeData = document.createElement('span');
     const element = document.createElement('li');
     const line = document.createElement('div');
+    const alert = document.createElement('div')
 
     element.setAttribute('id', data.dataId);
-    element.innerHTML += `${data.dataTitle}<br>${data.dataAuthor}<br> `;
+    if (data.dataTitle !== "" && data.dataAuthor !== "") {
+      element.innerHTML += `${data.dataTitle}<br>${data.dataAuthor}<br> `;
 
-    removeData.innerHTML = '<button>Remove</button>';
-    removeData.className = 'remove_data';
-    removeData.setAttribute('title', 'Remove');
+      removeData.innerHTML = '<button>Remove</button>';
+      removeData.className = 'remove_data';
+      removeData.setAttribute('title', 'Remove');
 
-    line.innerHTML = '<div class="line"></div>';
+      line.innerHTML = '<div class="line"></div>';
 
-    element.appendChild(removeData);
-    showList.appendChild(element);
-    element.appendChild(line);
+      element.appendChild(removeData);
+      showList.appendChild(element);
+      element.appendChild(line);
+    }
   }
 
   function removeDta(event) {
