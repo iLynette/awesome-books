@@ -48,9 +48,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Tufahel](https://github.com/Tufahel)
+- LinkedIn: [Tufahel Ahmed](https://bd.linkedin.com/in/tufahel-ahmed-972884203)
 
 ## 🤝 Contributing
 
