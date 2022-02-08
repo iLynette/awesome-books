@@ -43,10 +43,10 @@
     const removeData = document.createElement('span');
     const element = document.createElement('li');
     const line = document.createElement('div');
-    const alert = document.createElement('div')
+    const alert = document.createElement('div');
 
     element.setAttribute('id', data.dataId);
-    if (data.dataTitle !== "" && data.dataAuthor !== "") {
+    if (data.dataTitle !== '' && data.dataAuthor !== '') {
       element.innerHTML += `${data.dataTitle}<br>${data.dataAuthor}<br> `;
 
       removeData.innerHTML = '<button>Remove</button>';
