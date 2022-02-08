@@ -12,7 +12,10 @@
     "extends": ["airbnb-base"],
     "rules": {
       "no-use-before-define": "off",
+      "no-plusplus": "off",
+      "guard-for-in": "off",
       "no-unused-vars": "off",
+      "no-restricted-syntax": "off",
       "eqeqeq": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
