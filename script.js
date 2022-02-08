@@ -45,13 +45,14 @@
       var removeData = document.createElement('span');
       var element = document.createElement('li');
 
+      element.setAttribute("id", data.dataId);
+      element.innerHTML +=  data.dataTitle + '<br>' + data.dataAuthor + '<br> ' ;
+
       removeData.innerHTML = `<button>Remove</button>`;
       removeData.className = "remove_data";
       removeData.setAttribute("title", "Remove");
 
       element.appendChild(removeData);
-      element.setAttribute("id", data.dataId);
-      element.innerHTML += ' ' + data.dataTitle + ' ' + data.dataAuthor;
       showList.appendChild(element);
   }
 
