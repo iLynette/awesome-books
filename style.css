@@ -1,6 +1,5 @@
 ul {
   list-style: none;
-  border-bottom: 1px solid gray;
 }
 
 .inputField {
@@ -9,4 +8,8 @@ ul {
 
 button {
   margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: 1px solid gray;
 }

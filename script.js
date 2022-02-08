@@ -44,6 +44,7 @@
   function addDataToList(data) {
       var removeData = document.createElement('span');
       var element = document.createElement('li');
+      var line = document.createElement('div');
 
       element.setAttribute("id", data.dataId);
       element.innerHTML +=  data.dataTitle + '<br>' + data.dataAuthor + '<br> ' ;
@@ -52,8 +53,11 @@
       removeData.className = "remove_data";
       removeData.setAttribute("title", "Remove");
 
+      line.innerHTML = `<div class="line"></div>`;
+
       element.appendChild(removeData);
       showList.appendChild(element);
+      showList.appendChild(line);
   }
 
   function removeDta(event) {
