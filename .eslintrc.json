@@ -11,6 +11,9 @@
     },
     "extends": ["airbnb-base"],
     "rules": {
+      "no-use-before-define": "off",
+      "no-unused-vars": "off",
+      "eqeqeq": "off",
       "no-shadow": "off",
       "no-param-reassign": "off",
       "eol-last": "off",
