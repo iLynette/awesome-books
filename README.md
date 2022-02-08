@@ -1,56 +1,36 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Awesome-books
+> This project is about a library where you add a book title and the author and remove books from the list
 
-> Description the project.
-
+![screenshot](./pic1.png)
 
 ## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
+- HTML
+- Javascript
+- VScode
+## Live Demo
+For the link to the live demo, [Click here](https://ilynette.github.io/awesome-books/)
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+To get a local copy up and running you just need to follow the following steps;
+-Clone this repository with
+git clone https://github.com/iLynette/awesome-books.git using your terminal or command line.
+-Change to the project directory by entering :
+cd awesome-books in the terminal.
+-run code . to open it in vscode
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@iLynette](https://github.com/iLynette)
+- Twitter: [@acholah_lynette](https://twitter.com/acholah_lynette)
+- LinkedIn: [acholah lynette](https://www.linkedin.com/in/lynette-acholah/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Tufahel](https://github.com/Tufahel)
+- LinkedIn: [Tufahel Ahmed](https://bd.linkedin.com/in/tufahel-ahmed-972884203)
 
 ## 🤝 Contributing
 

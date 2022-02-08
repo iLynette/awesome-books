@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+}
+
+.inputField {
+  margin-bottom: 5px;
+}
+
+button {
+  margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: 1px solid gray;
+}
