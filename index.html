@@ -8,26 +8,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <h3>Show and remove book lists</h3>
-        <ul id="show_list"></ul>
-    </div>
-    <div>
-        <form action="#">
-            <div class="inputField">
-                <label for="title"><input id="title" placeholder="title" type="text" required/></label>
-            </div>
-            <div>
-                <label for="author">
-                    <input id="author" placeholder="author" type="text" required/>
-                </label>
-            </div>
-            <br>
-            <div>
-                <button id="save" type="submit">Add</button>
-            </div>
+    <div class="showBooks" id="showBooks"></div>
+    <div class="container">
+        <h1 class="heading">Awesome Books</h1>
+        <form action="#" id="my-form">
+            <label for="title">
+                <input type="text" id="title" placeholder="Title" required>
+            </label>
+            <label for="author">
+                <input type="text" id="author" placeholder="Author" required>
+            </label>
+            <button type="submit" id="addBtn">Add</button>
         </form>
     </div>
-    <script src="script.js"></script>
+<script src="file.js"></script>
 </body>
 </html>
