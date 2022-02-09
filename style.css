@@ -1,3 +1,7 @@
+body {
+  height: 100vh;
+  max-width: 100%;
+}
 ul {
   list-style: none;
 }
@@ -59,19 +63,26 @@ button {
   border: 1px solid black;
 }
 
-.link {
+nav {
   display: flex;
-  float: right;
-  gap: 15px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
 }
 
+.link{
+  display: flex;
+  gap: 15px;
+
+}
 header {
   display: flex;
   border: 2px solid black;
 }
 
 .name {
-  margin-right: 400px;
+  /* margin-right: 400px; */
 }
 
 footer {
