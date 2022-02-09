@@ -26,10 +26,35 @@ button {
 }
 
 .container {
-  border-top: solid;
-  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+#addBtn {
+  width: 25%;
+  margin-left: 75%;
+  box-shadow: 2px 4px black;
+}
+
+.removeBtn {
+  box-shadow: 2px 4px black;
+  border-radius: 3px;
+}
+
+.showBooks {
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+.hr-line {
+  width: 20%;
+  margin-top: 50px;
+  border: 1px solid black;
 }

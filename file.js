@@ -33,7 +33,7 @@ class bookList {
                 document.getElementById('showBooks').innerHTML += `
                 <div class="books">
                     <div class="d-flex">
-                        <p class="title"><b>"${book.title}" &nbsp by ${book.author}</b></p>
+                        <p class="title"><b>"${book.title}"  by ${book.author}</b></p>
                         <button class="removeBtn" onClick = 'books.remove(${index})'><b>Remove</b></button>
                     </div>
                     <hr>
@@ -43,7 +43,12 @@ class bookList {
             document.getElementById('showBooks').innerHTML = '';
         }
     }
-
+    remove(index) {
+        this.list.splice(index, 1);
+        localStorage.setItem('Books', JSON.stringify(this.list));
+        this.render();
+        console.log(remove)
+    }
 }
 
 const books = new bookList();
