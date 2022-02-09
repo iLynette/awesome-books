@@ -73,7 +73,7 @@ nav {
 }
 
 #time {
-  float: right;
+  text-align: end;
   margin-top: 2px;
   font-size: 13px;
 }
