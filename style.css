@@ -2,6 +2,7 @@ body {
   height: 100vh;
   max-width: 100%;
 }
+
 ul {
   list-style: none;
 }
@@ -67,22 +68,33 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5px;
+  padding: 15px;
   width: 100%;
 }
 
-.link{
+#time {
+  float: right;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.link {
   display: flex;
   gap: 15px;
-
 }
+
+.link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link a:hover {
+  color: #00ff;
+}
+
 header {
   display: flex;
   border: 2px solid black;
-}
-
-.name {
-  /* margin-right: 400px; */
 }
 
 footer {
