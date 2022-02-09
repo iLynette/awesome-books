@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul class="link">
-                <li class="name">Awesome Books</li>
-                <li>List</li>|
-                <li>Add new</li>|
-                <li>Contact</li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="link">
+          <li class="name">Awesome Books</li>
+          <li class="list-nav">List</li>
+          |
+          <li class="books-nav">Add new</li>
+          |
+          <li class="contact-nav">Contact</li>
+        </ul>
+      </nav>
     </header>
-    <h1 class="heading">All Awesome Books</h1>
-    <div class="showBooks" id="showBooks"></div>
-    <hr class="hr-line">
-    <div class="container">
+    <section>
+      <p id="time"></p>
+    </section>
+    <section>
+      <div class="book-list">
+        <h1 class="heading">All Awesome Books</h1>
+        <div class="showBooks" id="showBooks"></div>
+      </div>
+      <hr class="hr-line" />
+      <div class="container add-books">
         <h2 class="heading">Add A New Book</h2>
         <form action="#" id="my-form">
-            <label for="title">
-                <input type="text" id="title" placeholder="Title" required>
-            </label>
-            <br>
-            <label for="author">
-                <input type="text" id="author" placeholder="Author" required>
-            </label>
-            <button type="submit" id="addBtn">Add</button>
+          <label for="title">
+            <input type="text" id="title" placeholder="Title" required />
+          </label>
+          <br />
+          <label for="author">
+            <input type="text" id="author" placeholder="Author" required />
+          </label>
+          <button type="submit" id="addBtn">Add</button>
         </form>
-    </div>
+      </div>
+    </section>
     <section class="contact">
-        <div class="info">
-            <h2>Contact Information</h2>
-            <p>Do you have any questions or do just want to say hello?<br> You can reach out to us</p>
-            <ul>
-                <li>completewebsite@gmail.com</li>
-                <li>Our phone number: 3632809218</li>
-                <li>Our address: 74 Kimathi street</li>
-            </ul>
-        </div>
+      <div class="info">
+        <h2>Contact Information</h2>
+        <p>
+          Do you have any questions or do just want to say hello?<br />
+          You can reach out to us
+        </p>
+        <ul>
+          <li>completewebsite@gmail.com</li>
+          <li>Our phone number: 3632809218</li>
+          <li>Our address: 74 Kimathi street</li>
+        </ul>
+      </div>
     </section>
     <footer>
-        <p>Copyright</p>
+      <p>Copyright</p>
     </footer>
-<script src="file.js"></script>
-</body>
+    <script src="file.js"></script>
+    <script src="date-time.js"></script>
+    <script src="spa.js"></script>
+  </body>
 </html>
