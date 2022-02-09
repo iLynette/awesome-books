@@ -58,3 +58,27 @@ button {
   margin-top: 50px;
   border: 1px solid black;
 }
+
+.link {
+  display: flex;
+  float: right;
+  gap: 15px;
+}
+
+header {
+  display: flex;
+  border: 2px solid black;
+}
+
+.name {
+  margin-right: 150px;
+}
+
+footer {
+  border: 2px solid black;
+  margin-top: 20px;
+}
+
+footer p {
+  margin-left: 10px;
+}
