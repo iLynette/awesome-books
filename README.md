@@ -3,7 +3,9 @@
 # Awesome-books
 > This project is about a library where you add a book title and the author and remove books from the list
 
-![screenshot](./pic2.png)
+![screenshot](./pic3.png)
+![screenshot](./pic4.png)
+![screenshot](./pic5.png)
 
 ## Built With
 - HTML
