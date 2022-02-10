@@ -1,9 +1,16 @@
+body {
+  position: relative;
+  min-height: 98vh;
+  max-width: 100%;
+}
+
 ul {
   list-style: none;
 }
 
-.inputField {
+input {
   margin-bottom: 5px;
+  padding: 5px;
 }
 
 button {
@@ -30,6 +37,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50vh;
 }
 
 .heading {
@@ -43,7 +51,7 @@ button {
 }
 
 .removeBtn {
-  box-shadow: 2px 4px black;
+  box-shadow: 1px 3px black;
   border-radius: 3px;
 }
 
@@ -51,10 +59,77 @@ button {
   border: 2px solid black;
   margin: 5px;
   padding: 10px;
+  height: 50vh;
+}
+
+.showBooks :nth-child(even) {
+  background-color: whitesmoke;
 }
 
 .hr-line {
   width: 20%;
   margin-top: 50px;
   border: 1px solid black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+#time {
+  text-align: end;
+  margin-top: 2px;
+  font-size: 13px;
+}
+
+.link {
+  display: flex;
+  gap: 15px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+}
+
+.link a:hover {
+  color: #00ff;
+}
+
+header {
+  display: flex;
+  border: 2px solid black;
+}
+
+.contact {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+footer {
+  border: 2px solid black;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info ul {
+  list-style-type: square;
 }
