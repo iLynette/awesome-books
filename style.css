@@ -61,9 +61,11 @@ button {
   padding: 10px;
   height: 50vh;
 }
+
 .showBooks :nth-child(even) {
   background-color: whitesmoke;
 }
+
 .hr-line {
   width: 20%;
   margin-top: 50px;
