@@ -5,7 +5,7 @@
 
 ![screenshot](./one.png)
 ![screenshot](./two.png)
-![screenshot](./three.png.png)
+![screenshot](./three.png)
 
 ## Built With
 - HTML
