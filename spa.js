@@ -10,8 +10,10 @@ addBook.style.display = 'none';
 showContact.style.display = 'none';
 
 function bookList() {
-  console.log('list');
   showBookList.style.display = 'block';
+  listNav.style.color = "blue";
+  contactNav.style.color = 'black';
+  addBooksNav.style.color= 'black';
   addBook.style.display = 'none';
   showContact.style.display = 'none';
 }
@@ -19,8 +21,10 @@ function bookList() {
 listNav.addEventListener('click', bookList);
 
 function addBookForm() {
-  console.log('form');
   addBook.style.display = 'flex';
+  addBooksNav.style.color= 'blue';
+  contactNav.style.color = 'black';
+  listNav.style.color = "black";
   showBookList.style.display = 'none';
   showContact.style.display = 'none';
 }
@@ -28,8 +32,10 @@ function addBookForm() {
 addBooksNav.addEventListener('click', addBookForm);
 
 function contact() {
-  console.log('contact');
-  showContact.style.display = 'block';
+  showContact.style.display = 'flex';
+  contactNav.style.color = 'blue';
+  addBooksNav.style.color= 'black';
+  listNav.style.color = "back";
   addBook.style.display = 'none';
   showBookList.style.display = 'none';
 }

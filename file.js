@@ -32,11 +32,10 @@ class BookList {
         this.list.forEach((book, index) => {
           document.getElementById('showBooks').innerHTML += `
                 <div class="books">
-                    <div class="d-flex">
+                    <div class="d-flex child">
                         <p class="title"><b>"${book.title}"  by ${book.author}</b></p>
                         <button class="removeBtn" onClick = 'books.remove(${index})'><b>Remove</b></button>
                     </div>
-                    <hr>
                 </div> `;
         });
       } else {
